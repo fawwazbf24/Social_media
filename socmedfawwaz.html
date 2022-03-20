@@ -1,0 +1,320 @@
+<html>
+    <head>
+        <title>Social Media Fawwaz Byru Fitrianto</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+ * {
+     font-family: sans-serif;
+     margin: 0;
+     padding: 0;
+	 box-sizing: border-box;
+ }
+
+ html,body{
+	display: grid;
+	height: 100%;
+	width: 100%;
+	place-items: center;
+	background: linear-gradient(315deg, #050101, #310528);
+}
+
+ .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(315deg, #050101, #310528);
+	border-radius: 20px;
+	padding: 6%;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
+ }
+
+ .btn-container .button .btn-i {
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #c71e7e;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+ }
+ .btn-container .button .btn-i i {
+    color: #df3796;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+ }
+ .btn-container .button .btn-i span {
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+ }
+ .btn-container .button .btn-i:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ff3019 0%, #c90477 100%);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+ }
+ .btn-container .button .btn-i:hover i {
+    transform: translateX(44px);
+    padding-right: 0;
+    color: #fff;
+ }
+ .btn-container .button .btn-i:hover span {
+    transform: translateX(30px);
+    opacity: 0;
+ }
+ .btn-container .button .btn-l {
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #286ed6;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn-container .button .btn-l i {
+    color: #286ed6;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-container .button .btn-l span {
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+}
+.btn-container .button .btn-l:hover {
+    transform: scale(1.1);
+    background: #286ed6;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+}
+.btn-container .button .btn-l:hover i {
+    transform: translateX(36px);
+    padding-right: 0;
+    color: #fff;
+}
+.btn-container .button .btn-l:hover span {
+    transform: translateX(30px);
+    opacity: 0;
+}
+.btn-container .button .btn-g {
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    color: rgb(3, 3, 3);
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn-container .button .btn-g i {
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-container .button .btn-g span {
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+}
+.btn-container .button .btn-g:hover {
+    transform: scale(1.1);
+    background: #000000;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+}
+.btn-container .button .btn-g:hover i {
+    transform: translateX(29px);
+    padding-right: 0;
+    color: #fff;
+}
+.btn-container .button .btn-g:hover span {
+    transform: translateX(30px);
+    opacity: 0;
+}
+.btn-container .button .btn-t {
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #65d6ce;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn-container .button .btn-t i {
+    color: #65d6ce;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-container .button .btn-t span {
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+}
+.btn-container .button .btn-t:hover {
+    transform: scale(1.1);
+    background:#65d6ce;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+}
+.btn-container .button .btn-t:hover i {
+    transform: translateX(30px);
+    padding-right: 0;
+    color: #fff;
+}
+.btn-container .button .btn-t:hover span {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.btn-container .button .btn-d {
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #0cc951;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn-container .button .btn-d i {
+    color: #0cc951;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-container .button .btn-d span {
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+}
+.btn-container .button .btn-d:hover {
+    transform: scale(1.1);
+    background:#0cc951;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+}
+.btn-container .button .btn-d:hover i {
+    transform: translateX(43px);
+    padding-right: 0;
+    color: #fff;
+}
+.btn-container .button .btn-d:hover span {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.btn-container .button .btn-k {
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #000000;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn-container .button .btn-k i {
+    color: #000000;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-container .button .btn-k span {
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+}
+.btn-container .button .btn-k:hover {
+    transform: scale(1.1);
+    background:#000000;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+}
+.btn-container .button .btn-k:hover i {
+    transform: translateX(28px);
+    padding-right: 0;
+    color: #fff;
+}
+.btn-container .button .btn-k:hover span {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.btn-container .button {
+	    flex-direction: column;
+	}
+}
+
+</style>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+ <div class="btn-container">
+     <div class="button">
+        <a href="https://www.instagram.com/fawwazbyruf/" target="_blank" class="btn-i"> <i class="fab fa-instagram"></i> <span>Instagram</span> </a>
+        <a href="https://www.linkedin.com/in/fawwaz-byru-01r04h24/" target="_blank" class="btn-l"> <i class="fab fa-linkedin"></i> <span>LinkedIn</span> </a>
+        <a href="https://github.com/fawwazbf24" target="_blank" class="btn-g"> <i class="fab fa-github"></i> <span>Github</span> </a>
+        <a href="https://twitter.com/fawwazbyru" target="_blank" class="btn-t"> <i class="fab fa-twitter"></i> <span>Twitter</span> </a>
+        <a href="https://www.deviantart.com/fawwaz24" target="_blank" class="btn-d"> <i class="fab fa-deviantart"></i> <span>DeviantArt</span> </a>
+        <a href="https://www.tiktok.com/@tchnntz01?lang=en" target="_blank" class="btn-k"> <i class="fab fa-Tiktok"></i> <span>Tiktok</span> </a>
+     </div>
+ </div>
+    </body>
+</html>
